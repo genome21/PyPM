@@ -1,0 +1,15 @@
+sudo: required
+language: python
+os:
+ - windows
+python:
+ - "3.5"
+install:
+ - pip install python-coveralls
+ - pip install coverage
+ - pip install nose
+ - pip install codecov
+script:
+ - ls
+ - sudo python test.py
+
