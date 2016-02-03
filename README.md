@@ -1,3 +1,9 @@
+[![Build Status](https://travis-ci.org/genome21/PyPM.svg?branch=master)](https://travis-ci.org/genome21/PyPM)
+[![Requirements Status](https://requires.io/github/genome21/PyPM/requirements.svg?branch=master)](https://requires.io/github/genome21/PyPM/requirements/?branch=master)
+[![Code Issues](https://www.quantifiedcode.com/api/v1/project/0a1e846982ae4684977e4f7a3885829b/badge.svg)](https://www.quantifiedcode.com/app/project/0a1e846982ae4684977e4f7a3885829b)
+[![Code Health](https://landscape.io/github/genome21/PyPM/master/landscape.svg?style=flat)](https://landscape.io/github/genome21/PyPM/master)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/696c706476594919abd62c3277ce9029)](https://www.codacy.com/app/thecainvestors/PyPM)
+
 # Python Project Management
 
 Project Management via a Native and Local Python application
