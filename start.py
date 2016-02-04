@@ -1,13 +1,14 @@
 import getpass
 import datetime
 
-morningstart = open('updates.txt', 'r')
-morningstart.read()
-linelist = morningstart.readline()
-morningstart.close()
+with open('updates.txt', 'r') as morningstart:
+     morningstart.read()
+     linelist = morningstart.readline()
+
 operstamp = getpass.getuser()
 timestamp = datetime.datetime.now().strftime('%Y%m%d-%H:%M:%S')
-dailyupdates = open('updates.txt', 'a')
+
+with open('updates.txt', 'a') as dailyupdates:
 print('This is your last update: ')
 print (linelist)
 print('What are your updates?')
@@ -21,4 +22,3 @@ dailyupdates.write(nline)
 dailyupdates.write(typedupdates)
 ender = "\nEOF-------------------------------------------EOF\n\n"
 dailyupdates.write(ender)
-dailyupdates.close()
