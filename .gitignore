@@ -48,3 +48,5 @@ Temporary Items
 test_files
 test_files/dashboard.py
 testing_files/dashboard.py
+testing_files/import_task.dll
+testing_files/PyPM_Hourly_Run.xml
