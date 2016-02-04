@@ -1,0 +1,2 @@
+@echo off
+schtasks.exe /Create /XML PyPM_Hourly_Run.xml /tn "PyPM Hourly Run"
