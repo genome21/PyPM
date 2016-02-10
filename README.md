@@ -17,3 +17,7 @@ This app has been tested to work on 32-bit Python v3.5.  Other versions cannot b
 * Double-Click <b>setup.py</b> to initialize the service.
 * Throughout the day, PyPM will ask for your updates and apply your username alongside timestamps.
 * At the end of your day, PyPM will package the day's updates for review to an email of your choice.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/genome21/pypm/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
